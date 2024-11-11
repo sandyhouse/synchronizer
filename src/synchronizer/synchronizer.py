@@ -9,8 +9,8 @@ class Synchronizer(ABC):
             self,
             rank: int=None,
             world_size: int=None):
-        self.world_size = world_size
         self.rank = rank
+        self.world_size = world_size
         self._check()
 
     def _check(self):
