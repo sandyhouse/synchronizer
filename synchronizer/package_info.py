@@ -12,7 +12,7 @@ VERSION = (MAJOR, MINOR, PATCH, PRE_RELEASE)
 __shortversion__ = '.'.join(map(str, VERSION[:3]))
 __version__ = '.'.join(map(str, VERSION[:3])) + ''.join(VERSION[3:])
 
-__package_name__ = 'synchronizer'
+__package_name__ = 'py-synchronizer'
 __contact_names__ = 'Long LI'
 __contact_emails__ = 'lilong.albert@gmail.com'
 __homepage__ = (
