@@ -5,7 +5,7 @@ import importlib.util
 import setuptools
 from setuptools import Extension
 
-spec = importlib.util.spec_from_file_location('package_info', 'src/synchronizer/package_info.py')
+spec = importlib.util.spec_from_file_location('package_info', 'synchronizer/package_info.py')
 package_info = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(package_info)
 
@@ -71,7 +71,7 @@ setuptools.setup(
         'Natural Language :: English',
         'Operating System :: OS Independent',
     ],
-    packages=setuptools.find_namespace_packages(include=["src"]),
+    packages=setuptools.find_namespace_packages(include=["synchronizer"]),
     # Add in any packaged data.
     include_package_data=True,
     # PyPI package information.

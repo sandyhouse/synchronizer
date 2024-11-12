@@ -1,4 +1,4 @@
 build
 dist
-src/synchronizer/__pycache__/
+synchronizer/__pycache__/
 synchronizer.egg-info/
