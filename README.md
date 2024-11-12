@@ -7,13 +7,13 @@ This is a synchronization library used to synchronize multiple processes in dist
 You can install this package with pip using the following command:
 
 ```shell
-pip install synchronizer
+pip install py-synchronizer
 ```
 
 ## Usage
 
 ```python
-from synchronizer import FileSystemSynchronizer
+from py-synchronizer import FileSystemSynchronizer
 from multiprocessing import Process
 
 
