@@ -76,4 +76,9 @@ setuptools.setup(
     include_package_data=True,
     # PyPI package information.
     keywords=__keywords__,
+    entry_points={
+        'console_scripts': [
+            'synchronizer=synchronizer.cli:main',
+        ],
+    },
 )
