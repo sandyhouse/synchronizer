@@ -25,7 +25,7 @@ if __name__ == "__main__":
     main()
 ```
 
-## FileSystemSynchronizer
+### FileSystemSynchronizer
 
 ```python
 FileSystemSynchronizer(shared_dir, rank, world_size)
@@ -33,5 +33,14 @@ FileSystemSynchronizer(shared_dir, rank, world_size)
 
 Parameters:
 - shared_dir: A directory on a shared file system that can be accessed by all processes; **this directory must be empty**.
-- rank: Rank id of the current process
+- rank: Rank id of the current process.
 - world_size: Total number of processes.
+
+### shell
+
+You can also use the `synchronizer` command:
+
+```shell
+synchronizer --shared_dir dir --rank 0 --world_size 1
+```
+
