@@ -41,6 +41,6 @@ Parameters:
 You can also use the `synchronizer` command:
 
 ```shell
-synchronizer --shared_dir dir --rank 0 --world_size 1
+synchronizer --shared_dir dir --rank 0 --num_processes 1
 ```
 
